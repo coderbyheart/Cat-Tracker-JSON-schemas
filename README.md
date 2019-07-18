@@ -4,13 +4,13 @@ Contains the application protocol definition for the Cat Tracker application.
 
 ## Topics and overall communications
 
-# Initialization:
+### Initialization:
  - Device requests its initial parameters on *$aws/things/**thingname**/shadow/get*
  - Device recieves its initial parameters on *$aws/things/**thingname**/shadow/get*
  - If the request is accepted a response with initial parameters is given on *$aws/things/**thingname**/shadow/get/accepted*
  - If the request is rejected a response is given on *$aws/things/**thingname**/shadow/get/rejected*
 
-# Normal Operation
+#### Normal Operation
  - Device updates are posted on *$aws/things/**thingname**/shadow/update*
  - Device recieves updates on *$aws/things/**thingname**/shadow/update/delta*
 
