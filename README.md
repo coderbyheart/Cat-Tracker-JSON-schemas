@@ -1,16 +1,18 @@
 # JSON schema files for Cat Tracker application
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+Contains the application protocol definition for the Cat Tracker application.
 
 ## Topics and overall communications
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+# Initialization:
+ - Device requests its initial parameters on *$aws/things/**thingname**/shadow/get*
+ - Device recieves its initial parameters on *$aws/things/**thingname**/shadow/get*
+ - If the request is accepted a response with initial parameters is given on *$aws/things/**thingname**/shadow/get/accepted*
+ - If the request is rejected a response is given on *$aws/things/**thingname**/shadow/get/rejected*
+
+# Normal Operation
+ - Device updates are posted on *$aws/things/**thingname**/shadow/update*
+ - Device recieves updates on *$aws/things/**thingname**/shadow/update/delta*
 
 ## Dynamic parameters
 
