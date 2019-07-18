@@ -1,4 +1,4 @@
-# JSON schema files for Cat Tracker application [work in progress]
+# JSON schema files for Cat Tracker application [Ongoing]
 
 Contains the application protocol definition for the Cat Tracker application.
 
