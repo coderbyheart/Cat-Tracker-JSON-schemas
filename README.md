@@ -18,7 +18,7 @@ Contains the application protocol definition for the Cat Tracker application.
 
 **pubint** = publishing interval: Decides how often the device should publish data. This parameter is not an exact representation of publishing interval, the actual publishing time is the publishing interval + the additional time required to get a gps fix).
 
-**gpst** = gps threshold: Decides the duration of time spent on obtaining a a gps fix. When the device breaks the threshold limit it will go to sleep for the duration of the publishing time, and try again upon the next publishing cycle.
+**gpst** = gps threshold: Decides the duration of time spent on obtaining a gps fix. When the device breaks the threshold limit it will go to sleep for the duration of the publishing time, and try again upon the next publishing cycle.
 
 **mode** = tracking mode: Mode can either be true or false representing either an active tracking mode, or an passive tracking mode.
 
