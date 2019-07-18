@@ -1,7 +1,5 @@
 # JSON schema files for Cat Tracker application [Ongoing]
 
-<span style="color:blue">some *This is Blue italic.* text</span>
-
 Contains the application protocol definition for the Cat Tracker application.
 
 ## Topics and overall communications
