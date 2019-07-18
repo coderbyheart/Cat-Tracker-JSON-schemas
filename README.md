@@ -33,4 +33,5 @@ Contains the application protocol definition for the Cat Tracker application.
 
 The device supports two tracking modes, active and passive. These modes are configurable via the mode JSON object. When mode is set to true, active mode is enabled and when mode is set to false, passive mode is enabled.
 **Active Mode(mode = true):** In active mode the device publishes data every publishing interval.
+
 **Passive Mode(mode=false):** In passive mode the device publishes data every publishing interval as long as the subject wearing the device is actually in movement. When the subject is for instance sleeping or standing still, the device will not publish data.
