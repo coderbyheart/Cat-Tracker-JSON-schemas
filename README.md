@@ -1,4 +1,4 @@
-# JSON schema files for Cat Tracker application [Ongoing]
+# JSON schema files for Cat Tracker application [Ongoing] :smirk_cat:
 
 Contains the application protocol definition for the Cat Tracker application.
 
