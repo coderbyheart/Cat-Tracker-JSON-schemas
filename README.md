@@ -18,12 +18,12 @@ Contains the application protocol definition for the Cat Tracker application.
       },
       "gps": {
         "v": {
-            "lng": 10.436642,
-            "lat": 63.421133,
-            "acc": 11,               // Accuracy
-            "alt": 1234,             // Altitude
-            "spd": 456,              // Speed
-            "hdg": 176               // Heading
+          "lng": 10.436642,
+          "lat": 63.421133,
+          "acc": 12.123345,       //Accuracy
+          "alt": 123.233442,      //Altitude
+          "spd": 23.233412,       //Speed
+          "hdg": 0.234543         //Heading
         },
         "ts": "2019-07-24T11:45:52.991Z"
       },
