@@ -18,12 +18,12 @@ Contains the application protocol definition for the Cat Tracker application.
       },
       "gps": {
         "v": {
-            "lng": 10.436642,
-            "lat": 63.421133,
-            "acc": 11,               // Accuracy
-            "alt": 1234,             // Altitude
-            "spd": 456,              // Speed
-            "hdg": 176               // Heading
+          "lng": 10.436642,
+          "lat": 63.421133,
+          "acc": 12.123345,       //Accuracy
+          "alt": 123.233442,      //Altitude
+          "spd": 23.233412,       //Speed
+          "hdg": 0.234543         //Heading
         },
         "ts": "2019-07-24T11:45:52.991Z"
       },
@@ -35,9 +35,7 @@ Contains the application protocol definition for the Cat Tracker application.
                                    //                 to get a GPS fix.
         "mvres": 60,               // (movement resolution) In passive mode: Time in seconds to wait after detecting movement
         "mvt": 3600,               // (movement timeout) In passive mode: Send update at least this often (in seconds)
-        "acct": 12                 // (accelerometer threshold) absolute minimal value for and accelerometer reading to be considered movement as integer. 
-                                   //                           Divide by 10 to get the real threshold.
-                                   //                           Integers are used because the nRF9160 has issue parsing JSON floats. 
+        "acct": 85                 // (accelerometer threshold) minimal value for and accelerometer reading to be considered movement
       }
     }
   }
